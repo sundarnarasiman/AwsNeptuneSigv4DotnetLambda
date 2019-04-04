@@ -6,7 +6,7 @@
         "dotnet lambda help",
         "All the command line options for the Lambda command can be specified in this file."
     ],
-    "profile"     : "sundarprofile",
+    "profile"     : "yourprofile",
     "region"      : "us-east-1",
     "configuration" : "Release",
     "framework"     : "netcoreapp2.0",
@@ -15,9 +15,9 @@
     "function-timeout"     : 30,
     "function-handler"     : "neptunedotnetsigv4ws::neptunedotnetsigv4ws.Function::FunctionHandler",
     "function-name"        : "NeptuneDotnetSigv4",
-    "function-role"        : "arn:aws:iam::065770805525:role/Sundarfulllambdarole",
-    "function-subnets"     : "subnet-00519f5f4e1be7f9b",
-    "function-security-groups" : "sg-0ba3d58654b8ed632",
+    "function-role"        : "arn:aws:iam::yourawsaccountnumber:role/yourawsrole",
+    "function-subnets"     : "yourvpc",
+    "function-security-groups" : "yoursecuritygroup",
     "tracing-mode"             : "PassThrough",
     "environment-variables"    : ""
 }
