@@ -1,0 +1,23 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "sundarprofile",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp2.0",
+    "function-runtime" : "dotnetcore2.0",
+    "function-memory-size" : 256,
+    "function-timeout"     : 30,
+    "function-handler"     : "neptunedotnetsigv4ws::neptunedotnetsigv4ws.Function::FunctionHandler",
+    "function-name"        : "NeptuneDotnetSigv4",
+    "function-role"        : "arn:aws:iam::065770805525:role/Sundarfulllambdarole",
+    "function-subnets"     : "subnet-00519f5f4e1be7f9b",
+    "function-security-groups" : "sg-0ba3d58654b8ed632",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : ""
+}
